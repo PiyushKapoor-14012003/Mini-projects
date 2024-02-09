@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Manager App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="logo">Password Manager App</div>
+        <ul class="navbar">
+            <li class="navbar-menu">Home</li>
+            <li class="navbar-menu">Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="row">
+    
+            <div class="column">
+                <h1>Save Your Password Details</h1>
+                <form action="/save" method="post">
+
+                    <div class="form-label">
+                        <label for="website">Website:</label>
+                        <input class="form-input" type="text" id="website" name="website" required>
+                    </div>
+
+                    <div class="form-label">
+                        <label for="username">Username:</label>
+                        <input class="form-input" type="text" id="username" name="username" required>
+                    </div>
+                    
+                    <div class="form-label">
+                        <label for="password">Password:</label>
+                        <input class="form-input" type="password" id="password" name="password" required>
+                    </div>
+
+                    <button class="save-btn" type="submit">Save</button>
+                </form>
+            </div>
+
+            <div class="column">
+                <h1>Your Password History</h1>
+                <table class="table">
+                
+                </table>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

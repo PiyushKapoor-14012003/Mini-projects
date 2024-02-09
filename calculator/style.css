@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(14, 1, 42);
+    display: grid;
+    place-items: center;
+}
+
+.main {
+    border: solid 2px rgb(100, 71, 193);
+    padding: 20px;
+    width: fit-content;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.display-section {
+    margin: 0px 0px 15px 0px;
+}
+
+.display {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    border: 2px solid rgb(14, 1, 42);
+    border-radius: 5px;
+    font-size: 40px;
+    color: rgb(14, 1, 42);
+    font-weight: 700;
+}
+
+.btn {
+    width: 122px;
+    font-size: 30px;
+    margin: 2px 0px;
+    color: white;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(14, 1, 42);
+}
+
+.error {
+    text-align: right;
+    color: red;
+    font-size: 16px;
+}
